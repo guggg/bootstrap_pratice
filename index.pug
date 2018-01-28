@@ -1,0 +1,59 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Document
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css')
+    script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js')
+  body
+    .btn.btn-success css
+    .btn.btn-secondary css
+    .btn.btn-primary css
+    .btn.btn-outline-success css
+    .btn.btn-outline-warning css
+    .btn.btn-danger css
+    .btn.btn-info css
+    .btn.btn-light css
+    .btn.btn-dark css
+    table.table.table-striped.table-dark.table-bordered
+        tr.table-danger
+            td Jason
+            td Ejgru
+            td Elcjom
+        tr
+            td 1
+            td 2
+            td 3
+        tr
+            td Male
+            td Male
+            td Female
+    form.container
+        .form-group
+            label Email
+            input(type="text" placeholder="Enter Email").form-control
+        div
+            .form-check.form-check-inline /* inline-變成橫的 */
+                input(type="radio" name="radio").form-check.input
+                label.form-check-label Default radio
+            .form-check.form-check-inline
+                input(type="radio" name="radio").form-check.input
+                label.form-check-label Default radio
+            .form-check.form-check-inline
+                input(type="radio" name="radio").form-check.input
+                label.form-check-label Default radio
+        div
+            .form-check.form-check-inline
+                input(type="checkbox" name="checkbox").form-check.input
+                label.form-check-label Default checkbox
+            .form-check.form-check-inline
+                input(type="checkbox" name="checkbox").form-check.input
+                label.form-check-label Default checkbox
+            .form-check.form-check-inline
+                input(type="checkbox" name="checkbox").form-check.input
+                label.form-check-label Default checkbox
+        .form-group
+            input(type="submit" value="SEND").btn.btn-dark
+            input(type="button" value="CANCEL").btn.btn-danger
